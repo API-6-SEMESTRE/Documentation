@@ -42,7 +42,7 @@ With a good data flow defined, it is possible to generate discrepancies reports 
 
 ## Documentation:
 
-- [User Stories]([https://github.com/MaXximiles/API5-SEM/blob/main/Documentação/Instruções%20de%20instalação/README.md](https://github.com/API-6-SEMESTRE/Documentation/tree/main/User%20Stories)) 
+- [User Stories](https://github.com/API-6-SEMESTRE/Documentation/tree/main/User%20Stories) 
 
 <h2>Sprints</h2>
        <table>
