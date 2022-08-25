@@ -35,7 +35,7 @@ In recent years an innovation platform recognized as being an innovation platfor
 The client manages a health plan management system that has the following needs:
 A solution that reconciles information from a health operator's statement and the list of beneficiaries of that operator's health plans for each competency (monthly). As the data contains personal data, the application of LGPD rules for audit purposes is mandatory.
 
-## Solução:
+## Solution:
 
 CATE is the project that enables better data management, allowing better performance, integrity, security and privacy.
 With a good data flow defined, it is possible to generate discrepancies reports and display them to the controller, allowing for quick correction.
