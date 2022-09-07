@@ -9,12 +9,12 @@ The project to be developed will be a health plan conciliation management system
 <!--ts-->
    * [Introduction](#cate---coleta-análise-tratamento-exibição)
    * [Features](#-features)
-   * [Application Demo](#-demonstração-da-aplicação) - A fazer
+   * [Application Demo](#-demonstração-da-aplicação) - To do
    * [Project](#-projeto)
    * [Challenge](#-desafio)
    * [Soluction](#-solução)
    * [Deliveries](#-entregas)
-   * [Running the System](#-rodando-o-sistema) - A fazer
+   * [Running the System](#-rodando-o-sistema) - To do
       * [Pré-requisites](#-pré-requisitos)
       * [Running o Front-End](#-rodando-o-front-end)
       * [Running o Back-End Java](#-rodando-o-back-end-java)
