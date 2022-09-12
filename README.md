@@ -2,26 +2,22 @@
 
 <h1 align="center">CATE - Collect Analyze Treatment Exhibition</h1>
 
-The project to be developed will be a health plan conciliation management system for the partner company [Dom Rock](https://www.domrock.net/) in conjunction with the Faculty of Technology of São José dos Campos Professor Jessen Vidal.
+The project to be developed will be a health plan conciliation management system for the partner company [Dom Rock](https://www.domrock.net/) in conjunction with the College Fatec São José dos Campos Professor Jessen Vidal.
 
 <h2 align="center">📋 Table of Contents</h2>
 
 <!--ts-->
-   * [Introduction](#cate---coleta-análise-tratamento-exibição)
+   * [Introduction](#cate---collect-analyze-treatment-exhibition)
    * [Features](#-features)
-   * [Application Demo](#-demonstração-da-aplicação) - To do
-   * [Project](#-projeto)
-   * [Challenge](#-desafio)
-   * [Soluction](#-solução)
-   * [Deliveries](#-entregas)
-   * [Running the System](#-rodando-o-sistema) - To do
-      * [Pré-requisites](#-pré-requisitos)
-      * [Running o Front-End](#-rodando-o-front-end)
-      * [Running o Back-End Java](#-rodando-o-back-end-java)
-      * [Running o Back-End Python](#-rodando-o-back-end-python)
-   * [Technologies](#-tecnologias)
-   * [Members](#-membros)
-   * [Licenses](#-licença)
+   * [Application Demo](#-application-demo) - To do
+   * [Project](#-project)
+   * [Challenge](#-challenge)
+   * [Solution](#-solution)
+   * [Deliveries](#-deliveries)
+   * [Running the System](#-running-the-system) - To do
+   * [Technologies](#-technologies)
+   * [Members](#-members)
+   * [Licenses](#-licenses)
 <!--te-->
 
 <h2 align="center">✅ Features</h2>
@@ -29,22 +25,23 @@ The project to be developed will be a health plan conciliation management system
 - [ ] Application of LGPD
 - [ ] LOG for data tracking
 - [ ] Storing raw data in MongoDB
-- [ ] Storage of processed data in a DW
-- [ ] Reports in Power BI
-- [ ] Bônus
+- [ ] Storing processed data in a DW
+- [ ] Reports using Power BI
+- [ ] Bonus
   - [ ] Machine Learning Implementation
 
 <h2 align="center">📺 Application demo - to do</h2>
 
 <h2 align="center">🖥 Project</h2>
 
-Project carried out in partnership with Dom Rock that provides a platform that allows the capture of unstructured and structured data in an automated way and promotes the optimized visualization of analyses, information and data that enable recurring gains for various business areas of the companies. The platform was designed and built with the most advanced technologies of big data and artificial intelligence with self-scaling cloud architecture. In recent years the platform has been recognized as one of the best in Brazil by qualified rankings and through open innovation programs of large corporations and organizations.
+Project being developed in a partnership with Dom Rock that provides a platform which allows the capture of unstructured and structured data in an automated way and promotes the optimized visualization of analyses, information and data that enables recurring gains for various business areas of the companies. The platform was designed and built with the most advanced technologies of big data and artificial intelligence with self-scaling cloud architecture. In recent years the platform has been recognized as one of the best in Brazil by qualified rankings and through open innovation programs of large corporations and organizations.
 
 <h2 align="center">📈 Challenge</h2>
 
-Challenge proposed by Dom Rock - The client manages a health plan management system that has the following need: A solution that reconciles information from a health operator's statement and the list of beneficiaries of that operator's health plans for each competence (monthly). As the data contains personal data, the application of LGPD rules for audit purposes is mandatory.
+Challenge proposed by Dom Rock - The client manages a health plan management system that has the following need: A solution that reconciles information from a health operator's demonstrative and the list of beneficiaries of that operator's health plans for each competence (monthly). As the data contains personal data, the application of LGPD rules for audit purposes is mandatory.
+LGPD is the Brazilian General Data Protection Law.
 
-<h2 align="center">💡 Soluction</h2>
+<h2 align="center">💡 Solution</h2>
 
 CATE is the project that enables better data management, allowing for better performance, integrity, security and privacy.
 With a good data flow defined, it is possible to generate discrepancies reports and display them to the controller, allowing for quick correction.
@@ -55,10 +52,10 @@ Below is the planning and progress during the project Sprints.
 
 |   **SPRINT**    |  **DELIVERY DATE**  | **WHAT WILL BE DELIVERED** |
 |-----------------|-----------------------|-------------------------|
-|  1  |  08/29/2022 the 18/09/2022  | Application of LGPD on data, Modeling of data, Generation of Logs for data tracking, Persistence of raw data in MongoDB.
-|  2  |  09/19/2022 the 09/10/2022  | Analysis and treatment of data via Python, Persistence of data processed in MongoDB.
-|  3  |  10/13/2022 the 06/11/2022  | Modeling and implementation of the DW, Persistence of relevant data in the DW.
-|  4  |  11/07/2022 the 27/11/2022  | Power BI modeling and implementation, Integration between DW and Power BI, Power BI reports, Machine Learning (bonus).
+|  1  |  08/29/2022 to 09/18/2022  | Application of LGPD on data, Data Modeling, Generating Logs for data tracking, Persistence of raw data in MongoDB.
+|  2  |  09/19/2022 to 10/09/2022  | Analysis and treatment of data via Python, Persistence of data processed in MongoDB.
+|  3  |  10/13/2022 to 11/06/2022  | Modeling and implementation of the DW, Persistence of relevant data in the DW.
+|  4  |  11/07/2022 to 11/27/2022  | Power BI modeling and implementation, Integration between DW and Power BI, Power BI reports, Machine Learning (bonus).
 
 <h2 align="center">🚀 Running the System - To Do</h2>
 
@@ -74,7 +71,7 @@ The following tools were used in building the project:
   <img src="https://img.shields.io/static/v1?label=MySQL&message=Relational Database&color=4479A1&style=for-the-badge&logo=mysql"/>
  </a>
  <a href="https://powerbi.microsoft.com/pt-br/">
-  <img src="https://img.shields.io/static/v1?label=Power BI&message=Relatórios&color=F2C811&style=for-the-badge&logo=Power BI"/>
+  <img src="https://img.shields.io/static/v1?label=Power BI&message=Reports&color=F2C811&style=for-the-badge&logo=Power BI"/>
  </a>
 </p>
 <p align="center">
@@ -103,7 +100,7 @@ The following tools were used in building the project:
  </a>
 </p>
 
-<h2 align="center">👥 Membros</h2>
+<h2 align="center">👥 Members</h2>
 
 <table align="center">
     <tr>
@@ -226,4 +223,4 @@ The following tools were used in building the project:
 
 <h2 align="center">📝 License</h2>
 
-All information resulting from Learning through Integrated Projects at Fatec São José dos Campos - Prof. Jessen Vidal follow the Open Source Initiative (OSI) or Academic Free License 3.0 (AFL-3.0) license.
+All information resulting from Learning through Integrated Projects at Fatec São José dos Campos - Prof. Jessen Vidal follows the Open Source Initiative (OSI) or Academic Free License 3.0 (AFL-3.0) license.
