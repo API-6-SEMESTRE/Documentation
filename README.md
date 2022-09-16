@@ -34,16 +34,15 @@ The project to be developed will be a health plan conciliation management system
 
 <h2 align="center">🖥 Project</h2>
 
-Project being developed in a partnership with Dom Rock that provides a platform which allows the capture of unstructured and structured data in an automated way and promotes the optimized visualization of analyses, information and data that enables recurring gains for various business areas of the companies. The platform was designed and built with the most advanced technologies of big data and artificial intelligence with self-scaling cloud architecture. In recent years the platform has been recognized as one of the best in Brazil by qualified rankings and through open innovation programs of large corporations and organizations.
+Project being developed in a partnership with Dom Rock, tech company that provides a platform which allows the capture of unstructured and structured data in an automated manner and promotes the optimized visualization of analyses, information, and data that enables recurring financial gains for various business areas of Dom Rock's clients. The platform was designed and built with the most advanced technologies of big data and artificial intelligence with self-scaling cloud architecture. In recent years the platform has been recognized as one of the best in Brazil by qualified rankings and through open innovation programs of large corporations and organizations.
 
 <h2 align="center">📈 Challenge</h2>
 
-Challenge proposed by Dom Rock - The client manages a health plan management system that has the following need: A solution that reconciles information from a health operator's demonstrative and the list of beneficiaries of that operator's health plans for each competence (monthly). As the data contains personal data, the application of LGPD rules for audit purposes is mandatory.
-LGPD is the Brazilian General Data Protection Law.
+Challenge proposed by Dom Rock - The client manages a health plan management system that has the following need: A solution that reconciles information from a health operator's demonstrative and the list of beneficiaries of that operator's health plans for each monthly competence. As the data contains personal information, the implementation of the LGPD (Brazilian General Data Protection Law) law is mandatory for audit purposes.
 
 <h2 align="center">💡 Solution</h2>
 
-CATE is the project that enables better data management, allowing for better performance, integrity, security and privacy.
+CATE is the project that enables better data management, allowing for better performance, integrity, security, and privacy.
 With a good data flow defined, it is possible to generate discrepancies reports and display them to the controller, allowing for quick correction.
 
 <h2 align="center">💎 Deliveries</h2>
