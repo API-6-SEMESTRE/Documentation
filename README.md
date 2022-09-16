@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/logo/logofinal.png" alt="CATE" class="center" width=300/> </p>
+<p align="center"> <img src="./logo/logofinal.png" alt="CATE" class="center" width=300/> </p>
 
 <h1 align="center">CATE - Collect Analyze Treatment Exhibition</h1>
 
@@ -9,12 +9,12 @@ The project to be developed will be a health plan conciliation management system
 <!--ts-->
    * [Introduction](#cate---collect-analyze-treatment-exhibition)
    * [Features](#-features)
-   * [Application Demo](#-application-demo) - To do
+   * [Application Demo](#-application-demo)
    * [Project](#-project)
    * [Challenge](#-challenge)
    * [Solution](#-solution)
    * [Deliveries](#-deliveries)
-   * [Running the System](#-running-the-system) - To do
+   * [Running the System](#-running-the-system)
    * [Technologies](#-technologies)
    * [Members](#-members)
    * [Licenses](#-licenses)
@@ -30,7 +30,15 @@ The project to be developed will be a health plan conciliation management system
 - [ ] Bonus
   - [ ] Machine Learning Implementation
 
-<h2 align="center">📺 Application demo - to do</h2>
+<h2 align="center">📺 Application demo</h2>
+
+<div align="center">
+
+![Alt Text](./demonstration-application/graphic-1.png)
+![Alt Text](./demonstration-application/graphic-2.png)
+![Alt Text](./demonstration-application/graphic-3.png)
+
+</div>
 
 <h2 align="center">🖥 Project</h2>
 
@@ -57,7 +65,33 @@ Below is the planning and progress during the project Sprints.
 |  3  |  10/13/2022 to 11/06/2022  | Modeling and implementation of the DW, Persistence of relevant data in the DW.
 |  4  |  11/07/2022 to 11/27/2022  | Power BI modeling and implementation, Integration between DW and Power BI, Power BI reports, Machine Learning (bonus).
 
-<h2 align="center">🚀 Running the System - To Do</h2>
+<h2 align="center">🚀 Running the System</h2>
+
+<h3>📑 Pré-requisitos</h3>
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Python](https://www.python.org/)  e [PIP](https://pypi.org/project/pip/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou [PyCharm](https://www.jetbrains.com/pt-br/pycharm/).
+
+<h3>🎲 Rodando o Python</h3>
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/API-6-SEMESTRE/Projeto
+
+# Rodar o comando a seguir no terminal para instalar as bibliotecas do PIP
+$ pip install -r src/requirements.txt
+
+# Rodar um dos comandos a seguir:
+
+## Nível BRONZE - Extração dos dados das planilhas e a persistência no MongoDB SEM anonimizar os dados
+$ python3 src/extractor.py bronze
+
+## Nível SILVER - Extração dos dados das planilhas e a persistência no MongoDB COM anonimização dos dados
+$ python3 src/extractor.py silver
+
+# Pronto! Os dados foram persistidos no MongoDB de acordo com a opção escolhida.
+```
 
 <h2 align="center">🛠 Technologies</h2>
 
@@ -106,7 +140,7 @@ The following tools were used in building the project:
     <tr>
         <td align="center">
             <a href="https://linkedin.com/in/tairik-nishimura/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/tairik.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/tairik.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>Tairik Johnny</b>
@@ -120,7 +154,7 @@ The following tools were used in building the project:
         </td>
         <td align="center">
             <a href="https://www.linkedin.com/in/maxx-barcelos-aaa106b2/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/maximiles.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/maximiles.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>Maximiles Barcelos</b>
@@ -134,7 +168,7 @@ The following tools were used in building the project:
         </td>
         <td align="center">
             <a href="https://www.linkedin.com/in/jeferson-tadeu-das-neves-a98343190/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/jeferson.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/jeferson.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>Jeferson Neves</b>
@@ -148,7 +182,7 @@ The following tools were used in building the project:
         </td>
         <td align="center">
             <a href="https://linkedin.com/in/devanir-ramos-junior/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/devanir.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/devanir.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>Devanir Ramos</b>
@@ -164,7 +198,7 @@ The following tools were used in building the project:
     <tr>
         <td align="center">
             <a href="https://www.linkedin.com/in/jos%C3%A9-francisco-forneiro-junior/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/jose.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/jose.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>José Francisco</b>
@@ -178,7 +212,7 @@ The following tools were used in building the project:
         </td>
         <td align="center">
             <a href="https://www.linkedin.com/in/alan-bezerra/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/alan.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/alan.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>Alan Lucas</b>
@@ -192,7 +226,7 @@ The following tools were used in building the project:
         </td>
         <td align="center">
             <a href="https://www.linkedin.com/in/leonardo-gabriel-silva-11b8b8178/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/leonardo.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/leonardo.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>Leonardo Gabriel</b>
@@ -206,7 +240,7 @@ The following tools were used in building the project:
         </td>
         <td align="center">
             <a href="https://www.linkedin.com/in/henrique-zucareli-santiago/">
-                <img style="border-radius: 50%;" src="https://github.com/API-6-SEMESTRE/Documentacao/blob/main/fotos/henrique.png" width="150px;" height="150px;" alt="image" />
+                <img style="border-radius: 50%;" src="./photos/henrique.png" width="150px;" height="150px;" alt="image" />
                 <br />
                 <sub>
                     <b>Henrique Zucareli</b>
