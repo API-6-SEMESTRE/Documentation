@@ -34,9 +34,9 @@ The project to be developed will be a health plan conciliation management system
 
 <div align="center">
 
-![Alt Text](./demonstration-application/graphic-1.png)
-![Alt Text](./demonstration-application/graphic-2.png)
-![Alt Text](./demonstration-application/graphic-3.png)
+![Alt Text](./demonstration-application/charts-1.png)
+![Alt Text](./demonstration-application/charts-2.png)
+![Alt Text](./demonstration-application/charts-3.png)
 
 </div>
 
@@ -66,30 +66,30 @@ Below is the planning and progress during the project Sprints.
 
 <h2 align="center">🚀 Running the System</h2>
 
-<h3>📑 Pré-requisitos</h3>
+<h3>📑 Prerequisites</h3>
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Python](https://www.python.org/)  e [PIP](https://pypi.org/project/pip/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou [PyCharm](https://www.jetbrains.com/pt-br/pycharm/).
+Before starting, you will need installed in your machine the following tools:
+[Git](https://git-scm.com), [Python](https://www.python.org/) and [PIP](https://pypi.org/project/pip/).
+Besides this it is good to have an IDE to work with the code, for example [VSCode](https://code.visualstudio.com/) or [PyCharm](https://www.jetbrains.com/pt-br/pycharm/).
 
-<h3>🎲 Rodando o Python</h3>
+<h3>🎲 Running Python</h3>
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/API-6-SEMESTRE/Projeto
 
-# Rodar o comando a seguir no terminal para instalar as bibliotecas do PIP
+# Run the following command in the terminal to isntall the PIP libraries
 $ pip install -r src/requirements.txt
 
-# Rodar um dos comandos a seguir:
+# Run the following commands:
 
-## Nível BRONZE - Extração dos dados das planilhas e a persistência no MongoDB SEM anonimizar os dados
+## BRONZE Level - Data extraction from the sheets and data persistence on MongoDB WITHOUT data anonymization
 $ python3 src/extractor.py -l bronze
 
-## Nível SILVER - Extração dos dados das planilhas e a persistência no MongoDB COM anonimização dos dados
+## Silver Level - Data extraction from the sheets and data persistence on MongoDB WITH data anonymization
 $ python3 src/extractor.py -l silver
 
-# Pronto! Os dados foram persistidos no MongoDB de acordo com a opção escolhida.
+# Done! The data was persisted on MongoDB accordingly to the selected option.
 ```
 
 <h2 align="center">🛠 Technologies</h2>
