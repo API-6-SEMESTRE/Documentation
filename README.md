@@ -18,7 +18,7 @@ The project to be developed will be a health plan conciliation management system
    * [Technologies](#-technologies)
    * [Members](#-members)
    * [Licenses](#-licenses)
-   * [Project Dictionary](https://github.com/API-6-SEMESTRE/Documentacao/blob/main/Arquivos/dicionario.md)
+   * [Project Dictionary](https://github.com/API-6-SEMESTRE/Documentation/blob/main/Files/dictionary.md)
 <!--te-->
 
 <h2 align="center">✅ Features</h2>
