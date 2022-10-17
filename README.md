@@ -23,10 +23,16 @@ The project to be developed will be a health plan conciliation management system
 
 <h2 align="center">✅ Features</h2>
 
-- [ ] Application of LGPD
-- [ ] LOG for data tracking
-- [ ] Storing raw data in MongoDB
+- [x] Bronze and Silver data processing levels
+- [x] Data extraction
+- [x] LOG of the data extraction process
+- [ ] Data cleaning
+- [x] Storing raw data in MongoDB
+- [x] Persistence process LOG in MongoDB
+- [ ] Data crossing
+- [ ] Storing cross data in MongoDB
 - [ ] Storing processed data in a DW
+- [ ] Application of LGPD
 - [ ] Reports using Power BI
 - [ ] Bonus
   - [ ] Machine Learning Implementation
@@ -60,10 +66,10 @@ Below is the planning and progress during the project Sprints.
 
 |   **SPRINT**    |  **DELIVERY DATE**  | **WHAT WILL BE DELIVERED** |
 |-----------------|-----------------------|-------------------------|
-|  1  |  08/29/2022 to 09/18/2022  | Application of LGPD on data, Data Modeling, Generating Logs for data tracking, Persistence of raw data in MongoDB.
-|  2  |  09/19/2022 to 10/09/2022  | Analysis and treatment of data via Python, Persistence of data processed in MongoDB.
-|  3  |  10/13/2022 to 11/06/2022  | Modeling and implementation of the DW, Persistence of relevant data in the DW.
-|  4  |  11/07/2022 to 11/27/2022  | Power BI modeling and implementation, Integration between DW and Power BI, Power BI reports, Machine Learning (bonus).
+|  1  |  08/29/2022 to 09/18/2022  | Data modeling, data processing levels (Bronze and Silver), data extraction from the bases, LOG of the extraction process, persistence of raw data in MongoDB, LOG of the persistence process in MongoDB.
+|  2  |  09/19/2022 to 10/09/2022  | Cleaning of data extracted from the databases, analysis and cross-checking of data via Python and persistence of cross-data in MongoDB.
+|  3  |  10/13/2022 to 11/06/2022  | LGPD application, DW modeling and implementation, Persistence of relevant data in DW.
+|  4  |  11/07/2022 to 11/27/2022  | Power BI modeling and implementation, integration between DW and Power BI, reports in Power BI and Machine Learning (bonus).
 
 <h2 align="center">🚀 Running the System</h2>
 
@@ -85,10 +91,10 @@ $ pip install -r src/requirements.txt
 # Run the following commands:
 
 ## BRONZE Level - Data extraction from the sheets and data persistence on MongoDB WITHOUT data anonymization
-$ python3 src/extractor.py -l bronze
+$ python3 src/et_l.py -l bronze
 
 ## Silver Level - Data extraction from the sheets and data persistence on MongoDB WITH data anonymization
-$ python3 src/extractor.py -l silver
+$ python3 src/et_l.py -l silver
 
 # Done! The data was persisted on MongoDB accordingly to the selected option.
 ```
