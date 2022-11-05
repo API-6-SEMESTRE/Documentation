@@ -35,7 +35,7 @@ the following models:
 3. **Backuplog:** Concatena all processes executed on the day thus generating a backup of the logs executed.
 <br><br> Logs are generated automatically when a process starts. At the end, files are generated that can be consulted later, facilitating the traceability of information.
 <br><br> Below project-generated log model: <br><br>
- ! [](https://github.com/API-6-SEMESTRE/Documentacao/blob/main/LGPD/imagens/imagemLog.png)
+ ! [](https://github.com/API-6-SEMESTRE/Documentation/blob/main/LGPD/pictures/imagemLog.png)
 
 <br><br> Being the stages of processing project data exposed and explained in the body of this document, it is agreed with the company Dom Rock that accepts the processes in the way it was presented.
 
