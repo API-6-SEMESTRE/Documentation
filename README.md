@@ -71,7 +71,7 @@ Below is the planning and progress during the project Sprints.
 |  1  |  08/29/2022 to 09/18/2022  | Data modeling, data processing levels (Bronze and Silver), data extraction from the bases, LOG of the extraction process, persistence of raw data in MongoDB, LOG of the persistence process in MongoDB.
 |  2  |  09/19/2022 to 10/09/2022  | Cleaning of data extracted from the databases, analysis and cross-checking of data via Python and persistence of cross-data in MongoDB.
 |  3  |  10/13/2022 to 11/06/2022  | LGPD application, DW modeling and implementation, cross-data persistence in DW, Power BI modeling and implementation, integration between DW and Power BI, reports in Power BI.
-|  4  |  11/07/2022 to 11/27/2022  | Improvements and Machine Learning (bonus).
+|  4  |  11/07/2022 to 27/11/2022  | Improvements and Machine Learning (bonus).
 
 <h2 align="center">🚀 Running the System</h2>
 
