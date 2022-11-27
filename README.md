@@ -35,9 +35,9 @@ The project to be developed will be a health plan conciliation management system
 - [x] Cross data storage in DW
 - [x] Storing LOGs in MongoDB
 - [x] Application of LGPD
-- [ ] Reports in Power BI
-- [ ] Bonus
-  - [ ] Machine Learning Implementation
+- [x] Reports in Power BI
+- [x] Bonus
+  - [x] Machine Learning Implementation
 
 <h2 align="center">📺 Application demo</h2>
 
