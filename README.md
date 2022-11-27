@@ -104,6 +104,10 @@ $ python3 src/et_l.py -l silver
 ## Add "-v" to the end of the command to print the processing to the console
 $ python3 src/et_l.py -l gold
 
+## ALL level - Runs all processes in the sequence BRONZE > SILVER > GOLD
+## Add "-v" to the end of the command to print the processing to the console
+$ python3 src/et_l.py -l all
+
 # Done!
 ```
 
