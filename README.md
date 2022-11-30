@@ -43,9 +43,7 @@ The project to be developed will be a health plan conciliation management system
 
 <div align="center">
 
-![Alt Text](./demonstration-application/charts-1.png)
-![Alt Text](./demonstration-application/charts-2.png)
-![Alt Text](./demonstration-application/charts-3.png)
+![Alt Text](./demonstration-application/dash_api.png)
 
 </div>
 
